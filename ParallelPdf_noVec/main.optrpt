@@ -1,0 +1,646 @@
+
+Begin optimization report for: main(int, char **)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into main.cxx(399,32)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into main.cxx(399,32)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into main.cxx(399,32)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into main.cxx(399,32)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into main.cxx(399,32)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into main.cxx(399,32)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<AbsPdf *, std::allocator<AbsPdf *>>::emplace_back(std::vector<AbsPdf *, std::allocator<AbsPdf *>> *, std::remove_reference<std::vector<AbsPdf *, std::allocator<AbsPdf *>>::value_type &>::type &&)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/vector.tcc(101,4)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/vector.tcc(101,4)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: List<AbsPdf>::List(List<AbsPdf> *, AbsPdf &, AbsPdf &, AbsPdf &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into List.h(23,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into List.h(23,5)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into List.h(23,27)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into List.h(23,27)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into List.h(23,49)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into List.h(23,49)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfProd<3>::PdfProd(PdfProd<3> *, const Char_t *, const Char_t *, List<AbsPdf> *, bool)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at List.h(50,5) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfProd.h(47,12)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfProd.h(47,12)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfProd.h(47,12)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<Variable *, std::allocator<Variable *>>::emplace_back(std::vector<Variable *, std::allocator<Variable *>> *, std::remove_reference<Variable *&>::type &&)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/vector.tcc(101,4)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/vector.tcc(101,4)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: List<Variable>::List(List<Variable> *, Variable &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into List.h(20,60)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into List.h(20,60)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfPolynomial<1>::PdfPolynomial(PdfPolynomial<1> *, const Char_t *, const Char_t *, Variable &, List<Variable> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at List.h(50,5) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(49,13)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(49,13)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(49,13)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfPolynomial<4>::PdfPolynomial(PdfPolynomial<4> *, const Char_t *, const Char_t *, Variable &, List<Variable> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at List.h(50,5) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(49,13)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(49,13)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(49,13)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfAdd<2>::PdfAdd(PdfAdd<2> *, const Char_t *, const Char_t *, AbsPdf &, AbsPdf &, Variable &, bool)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(37,12)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(37,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(38,12)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(38,12)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(39,17)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(39,17)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<AbsPdf *, std::allocator<AbsPdf *>>::vector(std::vector<AbsPdf *, std::allocator<AbsPdf *>> *, const std::vector<AbsPdf *, std::allocator<AbsPdf *>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_vector.h(322,4)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_vector.h(322,4)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<Variable *, std::allocator<Variable *>>::vector(std::vector<Variable *, std::allocator<Variable *>> *, const std::vector<Variable *, std::allocator<Variable *>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_vector.h(322,4)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_vector.h(322,4)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfAdd<5>::PdfAdd(PdfAdd<5> *, const Char_t *, const Char_t *, List<AbsPdf> *, List<Variable> *, bool)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at List.h(50,5) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(55,12)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(55,12)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(55,12)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at List.h(50,5) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(56,17)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(56,17)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(56,17)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: DoNLL(unsigned int, unsigned int, Data &, AbsPdf &, bool, const char *, int, bool, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at main.cxx(78,21)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at main.cxx(78,21)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at main.cxx(82,21)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at main.cxx(82,21)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at main.cxx(212,2)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at main.cxx(212,2)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at main.cxx(227,2)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at main.cxx(227,2)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at main.cxx(262,2)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at main.cxx(262,2)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<Variable *, std::allocator<Variable *>>::operator=(std::vector<Variable *, std::allocator<Variable *>> *, const std::vector<Variable *, std::allocator<Variable *>> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/vector.tcc(191,24)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/vector.tcc(191,24)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,8) inlined into /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/vector.tcc(210,8)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,8) inlined into /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/vector.tcc(210,8)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: DoNLL..0(unsigned int, unsigned int, Data &, AbsPdf &, bool, const char *, int, bool, int)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at main.cxx(78,21)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at main.cxx(78,21)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at main.cxx(82,21)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at main.cxx(82,21)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at main.cxx(203,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at main.cxx(212,2)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at main.cxx(212,2)
+   <Remainder>
+   LOOP END
+
+   LOOP BEGIN at main.cxx(227,2)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at main.cxx(227,2)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfPolynomial<1>::GetParameters(PdfPolynomial<1> *, List<Variable> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at List.h(50,5) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(55,71)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(55,71)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(55,71)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfPolynomial<1>::values(const PdfPolynomial<1> *, const PdfState &, double *, unsigned int, const Data &, unsigned int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(92,5)
+   remark #15301: OpenMP SIMD LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(92,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(92,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfPolynomial<4>::GetParameters(PdfPolynomial<4> *, List<Variable> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at List.h(50,5) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(55,71)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(55,71)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(55,71)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfPolynomial<4>::values(const PdfPolynomial<4> *, const PdfState &, double *, unsigned int, const Data &, unsigned int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(92,5)
+   remark #15301: OpenMP SIMD LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(92,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfAdd<2>::GetParameters(PdfAdd<2> *, List<Variable> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at List.h(50,5) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(65,16)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(65,16)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(65,16)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfAdd<2>::integral(const PdfAdd<2> *, const PdfState &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(130,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(75,96)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(130,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(75,96)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfAdd<2>::values(const PdfAdd<2> *, const PdfState &, double *, unsigned int, const Data &, unsigned int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(112,5)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(112,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfAdd<2>::ExtendedTerm(const PdfAdd<2> *, const PdfState &, UInt_t) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(130,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(121,40)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(130,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(121,40)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfAdd<2>::ExpectedEvents(const PdfAdd<2> *, const PdfState &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(130,23)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(130,23)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfPolynomial<0>::GetParameters(PdfPolynomial<0> *, List<Variable> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at List.h(50,5) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(55,71)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(55,71)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(55,71)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfPolynomial<0>::values(const PdfPolynomial<0> *, const PdfState &, double *, unsigned int, const Data &, unsigned int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(92,5)
+   remark #15301: OpenMP SIMD LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(92,5)
+<Remainder>
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfPolynomial.h(92,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfProd<3>::values(const PdfProd<3> *, const PdfState &, double *, unsigned int, const Data &, unsigned int) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfProd.h(83,5)
+   remark #15301: OpenMP SIMD LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfProd.h(83,5)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfAdd<5>::GetParameters(PdfAdd<5> *, List<Variable> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at List.h(50,5) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(65,16)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(65,16)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(65,16)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfAdd<5>::integral(const PdfAdd<5> *, const PdfState &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(130,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(75,96)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(130,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(75,96)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfAdd<5>::ExtendedTerm(const PdfAdd<5> *, const PdfState &, UInt_t) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(130,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(121,40)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(130,23) inlined into /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(121,40)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: PdfAdd<5>::ExpectedEvents(const PdfAdd<5> *, const PdfState &) const
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(130,23)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /root/benchmarking/benchmarks/VIFit/ParallelPdf_noVec/PdfAdd.h(130,23)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: std::vector<double, std::allocator<double>>::_M_default_append(std::vector<double, std::allocator<double>> *, std::vector<double, std::allocator<double>>::size_type)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_algobase.h(760,7) inlined into /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/vector.tcc(545,8)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_algobase.h(760,7) inlined into /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/vector.tcc(545,8)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_algobase.h(760,7) inlined into /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/vector.tcc(545,8)
+   <Remainder>
+   LOOP END
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/vector.tcc(559,9)
+   remark #25460: No loop optimizations reported
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_uninitialized.h(74,23) inlined into /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/vector.tcc(559,9)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_algobase.h(760,7) inlined into /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/vector.tcc(562,5)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_algobase.h(760,7) inlined into /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/vector.tcc(562,5)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/stl_algobase.h(760,7) inlined into /oplashare/sw/linux/x86_64/gcc/slc6/gcc-4.9.0/include/c++/4.9.0/bits/vector.tcc(562,5)
+   <Remainder>
+   LOOP END
+LOOP END
+===========================================================================
