@@ -2,7 +2,7 @@
 
 function isCod() {
     pushd $TOOLS
-    if [ $(python -c "import cpuTopology as c; print c.isNumaOn()") == "True" ]; then
+    if [ $(python -c "import cpuTopology as c; print c.isCodOn()") == "True" ]; then
         popd
         return 1
     else
@@ -34,10 +34,13 @@ elif [ -d ../../tools ]; then
     export TOOLS=../../tools
 fi
 
-if [ isCod -eq 1 ]; then
-	result_file="results_cod_on.csv"
+isCod
+if [ $? -eq 1 ]; then
+	results_file="results_cod_on.csv"
+    cod=1
 else
-	result_file="results_cod_off.csv"
+	results_file="results_cod_off.csv"
+    cod=0
 fi
 
 rm $results_file
