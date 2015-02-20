@@ -16,7 +16,7 @@ Data::Data(const Char_t* name, const Char_t* title, UInt_t size,
 {
   allocate(size,vars.GetSize());
 }
-o
+
 Data::Data(const Char_t* name, const Char_t* title, UInt_t size, UInt_t nvars) :
     Named(name,title), m_data(inPart()),  m_stride(inPart(),0), m_size(inPart(),0), m_capacity(inPart(),0), m_start(inPart(),0){
 

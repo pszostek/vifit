@@ -1,25 +1,24 @@
 #!/usr/bin/env bash
 
-ARCH=auto
-
-if [ "x$BENCH_ROOT" = "x" ]; then
-    echo "Benchmarking root script was not sourced!"
-    exit 1
-fi
-
-if [ "x$ARCH" = "x" ]; then
-	echo "Architecture name not set!"
-	exit 1
-fi
 
 CMD="./main_XEON -n 768000 -b 512 -i -150 -c -a 2"
-nodes=$(numactl -H | grep nodes | awk '{print $2}')
-if [ $nodes -eq 4 ]; then
-	cod=1
-else
-	cod=0
+
+if [ -d ../tools ]; then
+    export TOOLS=../tools
+elif [ -d ../../tools ]; then
+    export TOOLS=../../tools
 fi
-echo cod=$cod
+
+
+function isCod() {
+    if [ pushd $TOOLS && $(python -c "import cpuTopology as c; print c.isNumaOn()") == "True" ]; then
+        popd
+        return 1
+    else
+        popd
+        return 0
+    fi
+}
 
 
 function header() {
@@ -37,18 +36,18 @@ export GOMP_CPU_AFFINITY='0-55'
 for iset in "avx2" "avx" "noVec" "sse"; do
 	echo ${iset}
 	echo turbo on
-	$BENCH_ROOT/tools/enable_turbo >/dev/null || exit 1
+	$TOOLS/enable_turbo >/dev/null || exit 1
 	rm ParallelPdf_${iset}/vifit_${iset}.csv
 	(cd ParallelPdf_${iset} && vincenzo_conf "${iset},${cod},1," >> vifit_${iset}.csv && cd .. )||\
 	exit 1
 
 	echo turbo off
-	$BENCH_ROOT/tools/disable_turbo >/dev/null || exit 1
+	$TOOLS/disable_turbo >/dev/null || exit 1
 	(cd ParallelPdf_${iset} && vincenzo_conf "${iset},${cod},0," >> vifit_${iset}.csv && cd .. )||\
 	exit 1
 done
 
-if [ cod -eq 1 ]; then
+if [ isCod -eq 1 ]; then
 	result_file="results_cod_on.csv"
 else
 	result_file="results_cod_off.csv"
