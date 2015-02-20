@@ -1,17 +1,8 @@
 #!/usr/bin/env bash
 
-
-CMD="./main_XEON -n 768000 -b 512 -i -150 -c -a 2"
-
-if [ -d ../tools ]; then
-    export TOOLS=../tools
-elif [ -d ../../tools ]; then
-    export TOOLS=../../tools
-fi
-
-
 function isCod() {
-    if [ pushd $TOOLS && $(python -c "import cpuTopology as c; print c.isNumaOn()") == "True" ]; then
+    pushd $TOOLS
+    if [ $(python -c "import cpuTopology as c; print c.isNumaOn()") == "True" ]; then
         popd
         return 1
     else
@@ -24,6 +15,8 @@ function isCod() {
 function header() {
 	echo 'opt,COD,turbo,a,c,p'
 }
+
+
 function vincenzo_conf() {
 	echo $1'2,1,0,'$(taskset -c 0-55 ./main_XEON -n 768000 -b 512 -i -150 -c -a 2)
 	echo $1'2,0,1,'$(taskset -c 0-55 ./main_XEON -n 768000 -b 512 -i -150 -p -a 2)
@@ -32,7 +25,23 @@ function vincenzo_conf() {
 }
 
 
-export GOMP_CPU_AFFINITY='0-55'
+CMD="./main_XEON -n 768000 -b 512 -i -150 -c -a 2"
+export GOMP_CPU_AFFINITY="0-$(($(cat /proc/cpuinfo  | grep processor | wc -l)-1))"
+
+if [ -d ../tools ]; then
+    export TOOLS=../tools
+elif [ -d ../../tools ]; then
+    export TOOLS=../../tools
+fi
+
+if [ isCod -eq 1 ]; then
+	result_file="results_cod_on.csv"
+else
+	result_file="results_cod_off.csv"
+fi
+
+rm $results_file
+
 for iset in "avx2" "avx" "noVec" "sse"; do
 	echo ${iset}
 	echo turbo on
@@ -47,11 +56,7 @@ for iset in "avx2" "avx" "noVec" "sse"; do
 	exit 1
 done
 
-if [ isCod -eq 1 ]; then
-	result_file="results_cod_on.csv"
-else
-	result_file="results_cod_off.csv"
-fi
-rm $results_file
 header > $results_file
-for file in $(find -name vifit_\* ); do cat $file >> $results_file; done	
+for file in $(find -name vifit_\* ); do
+    cat $file >> $results_file;
+done	
